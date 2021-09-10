@@ -1,3 +1,3 @@
 import requests
-res = requests.get("http://www.google.com/")
+res = requests.get("http://google.com/", allow_redirects=True)
 print(res.text)
